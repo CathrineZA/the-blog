@@ -10,7 +10,7 @@
 	}
 
 	// write query for all pizzas
-	$sql = 'SELECT title, ingredients, id FROM pizzas';
+	$sql = 'SELECT title, ingredients, id FROM pizzas ';
 
 	// get the result set (set of rows)
 	$result = mysqli_query($conn, $sql);

@@ -1,6 +1,6 @@
 <?php
 
-include('config/db_connect.php');
+$conn = mysqli_connect('localhost', 'cathy', 'test2468', 'the_pizza_blog');
 
 $email = $title = $ingredients = '';
 $errors = array('email' => '', 'title' => '', 'ingredients' => '');
